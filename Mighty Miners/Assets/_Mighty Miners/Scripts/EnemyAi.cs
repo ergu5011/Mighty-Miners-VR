@@ -11,7 +11,11 @@ public class EnemyAi : MonoBehaviour
 
     public LayerMask whatIsGround, whatIsPlayer;
 
-    public GameObject prefab;
+    // For fist animation
+    public GameObject fist;
+    private Animator anim;
+
+    public GameObject damageZone;
 
     // Attack
     public float timeBetweenAttacks;
@@ -25,6 +29,10 @@ public class EnemyAi : MonoBehaviour
     {
         //player = GameObject.Find("XR Rig").transform;
         agent = GetComponent<NavMeshAgent>();
+
+        anim = fist.GetComponent<Animator>();
+
+        damageZone.SetActive(false);
     }
 
     private void Update()
@@ -53,7 +61,8 @@ public class EnemyAi : MonoBehaviour
         {
             // Attack code goes here
 
-            //Instantiate(prefab);
+            anim.SetTrigger("Attack");
+            damageZone.SetActive(true);
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
@@ -63,5 +72,6 @@ public class EnemyAi : MonoBehaviour
     private void ResetAttack()
     {
         alreadyAttacked = false;
+        damageZone.SetActive(false);
     }
 }

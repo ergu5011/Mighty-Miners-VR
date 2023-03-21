@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class FPSCounter : MonoBehaviour
 {
-    [SerializeField] private Text _fpsText;
+    [SerializeField] private TMP_Text _fpsText;
     [SerializeField] private float _hudRefreshRate = 1f;
 
     private float _timer;
