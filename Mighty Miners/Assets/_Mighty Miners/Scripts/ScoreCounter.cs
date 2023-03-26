@@ -10,11 +10,16 @@ public class ScoreCounter : MonoBehaviour
 
     private void Start()
     {
-        value.score = 0;
+        //value.score = 0;
     }
 
     void Update()
     {
         scoreText.text = "Score: " + value.score;
+
+        if (value.score >= 100)
+        {
+            scoreText.color = Color.green;
+        }
     }
 }
