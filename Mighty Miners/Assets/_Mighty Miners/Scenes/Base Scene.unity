@@ -23199,7 +23199,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428151797479222925}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 855d72b36bb9d904e80e3c9e587f3d8c, type: 3}
   m_Name: 
@@ -26304,7 +26304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DefaultLocomotion: 1
-  LoadLocomotionFromPrefs: 1
+  LoadLocomotionFromPrefs: 0
   locomotionToggleInput: 00000000
   LocomotionToggleAction: {fileID: 0}
 --- !u!136 &6598154922639532163
