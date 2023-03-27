@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Player Statistics
   m_EditorClassIdentifier: 
   health: 100
-  score: 40
+  score: 0
+  secondSpawn: 0

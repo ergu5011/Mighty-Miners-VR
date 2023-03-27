@@ -15,9 +15,9 @@ public class ScoreCounter : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Score: " + value.score;
+        scoreText.text = "Gold: " + value.score + " kg";
 
-        if (value.score >= 100)
+        if (value.score >= 385)
         {
             scoreText.color = Color.green;
         }

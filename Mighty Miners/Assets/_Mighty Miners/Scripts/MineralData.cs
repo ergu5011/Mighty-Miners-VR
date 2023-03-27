@@ -6,8 +6,15 @@ public class MineralData : MonoBehaviour
 {
     public PlayerStatistics value;
 
+    private AudioClip sound;
+
     public float hitValue;
     public float destroyValue;
+
+    private void Start()
+    {
+        //AudioClip = GetComponent<>
+    }
 
     public void OnHit()
     {

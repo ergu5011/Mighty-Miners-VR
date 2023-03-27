@@ -7,4 +7,5 @@ public class PlayerStatistics : ScriptableObject
 {
     public float health;
     public float score;
+    public bool secondSpawn = false;
 }
