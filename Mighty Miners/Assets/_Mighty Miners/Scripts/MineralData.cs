@@ -6,23 +6,29 @@ public class MineralData : MonoBehaviour
 {
     public PlayerStatistics value;
 
-    private AudioClip sound;
+    private AudioSource hitAud, breakAud;
+
+    [SerializeField]
+    private GameObject hitSource, breakSource;
 
     public float hitValue;
     public float destroyValue;
 
     private void Start()
     {
-        //AudioClip = GetComponent<>
+        hitAud = hitSource.GetComponent<AudioSource>();
+        breakAud = breakSource.GetComponent<AudioSource>();
     }
 
     public void OnHit()
     {
         value.score += hitValue;
+        hitAud.Play();
     } 
     
     public void OnDestroyed()
     {
         value.score += destroyValue;
+        breakAud.Play();
     }
 }

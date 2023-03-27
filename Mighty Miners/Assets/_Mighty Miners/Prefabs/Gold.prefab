@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3426270737758477448
+--- !u!1 &8315201303193441509
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2650192156837840434}
-  - component: {fileID: 1398513012718406039}
-  - component: {fileID: 3786528264387263837}
-  - component: {fileID: 1398513012718406037}
-  - component: {fileID: 1398513012718406038}
-  - component: {fileID: 1398513012718406036}
+  - component: {fileID: 8659954975977606751}
+  - component: {fileID: 5729014950073631226}
+  - component: {fileID: 7522555056568825136}
+  - component: {fileID: 5729014950073631224}
+  - component: {fileID: 5729014950073631227}
+  - component: {fileID: 5729014950073631225}
   m_Layer: 0
   m_Name: Gold
   m_TagString: Untagged
@@ -21,36 +21,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2650192156837840434
+--- !u!4 &8659954975977606751
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426270737758477448}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 1.131, y: 0.504, z: 4.473}
-  m_LocalScale: {x: 15, y: 20, z: 50}
+  m_GameObject: {fileID: 8315201303193441509}
+  m_LocalRotation: {x: -0.8295657, y: 0.28666764, z: -0.15707263, w: 0.45273685}
+  m_LocalPosition: {x: 2.018, y: 0.77730757, z: 6.046}
+  m_LocalScale: {x: 27.861, y: 37.148, z: 92.869995}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1398513012718406039
+  m_LocalEulerAnglesHint: {x: -138.617, y: -43.89099, z: 55.433}
+--- !u!33 &5729014950073631226
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426270737758477448}
+  m_GameObject: {fileID: 8315201303193441509}
   m_Mesh: {fileID: 8042792949741069269, guid: f3549f48b5179f1488a20969120e1c0c, type: 3}
---- !u!23 &3786528264387263837
+--- !u!23 &7522555056568825136
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426270737758477448}
+  m_GameObject: {fileID: 8315201303193441509}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,13 +86,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1398513012718406037
+--- !u!64 &5729014950073631224
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426270737758477448}
+  m_GameObject: {fileID: 8315201303193441509}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -100,13 +100,13 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8042792949741069269, guid: f3549f48b5179f1488a20969120e1c0c, type: 3}
---- !u!114 &1398513012718406038
+--- !u!114 &5729014950073631227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426270737758477448}
+  m_GameObject: {fileID: 8315201303193441509}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
@@ -126,7 +126,7 @@ MonoBehaviour:
   onDamaged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1398513012718406036}
+      - m_Target: {fileID: 5729014950073631225}
         m_TargetAssemblyTypeName: MineralData, Assembly-CSharp
         m_MethodName: OnHit
         m_Mode: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
   onDestroyed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1398513012718406036}
+      - m_Target: {fileID: 5729014950073631225}
         m_TargetAssemblyTypeName: MineralData, Assembly-CSharp
         m_MethodName: OnDestroyed
         m_Mode: 1
@@ -156,18 +156,20 @@ MonoBehaviour:
   onRespawn:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1398513012718406036
+--- !u!114 &5729014950073631225
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426270737758477448}
+  m_GameObject: {fileID: 8315201303193441509}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce8d178bd344b9041891d4cb571c2052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: {fileID: 11400000, guid: ec30fc300d5f0aa4fa566582eb9d370c, type: 2}
+  hitSource: {fileID: 0}
+  breakSource: {fileID: 0}
   hitValue: 5
   destroyValue: 15
