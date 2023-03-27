@@ -8643,7 +8643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: ec30fc300d5f0aa4fa566582eb9d370c, type: 2}
-  player: {fileID: 0}
+  player: {fileID: 3162055567568910286}
   pickaxe: {fileID: 958993447117868679}
   playerSpawn: {fileID: 1168623047}
   pickaxeSpawn: {fileID: 736298497}
@@ -26306,8 +26306,7 @@ MonoBehaviour:
   DefaultLocomotion: 1
   LoadLocomotionFromPrefs: 1
   locomotionToggleInput: 00000000
-  LocomotionToggleAction: {fileID: 3512515067727415170, guid: e39f4b35a6db18348b41eb0262520e69,
-    type: 3}
+  LocomotionToggleAction: {fileID: 0}
 --- !u!136 &6598154922639532163
 CapsuleCollider:
   m_ObjectHideFlags: 0
