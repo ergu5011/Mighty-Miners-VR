@@ -9,10 +9,6 @@ public class StatisticsManager : MonoBehaviour
     void Start()
     {
         data.score = 0;
-    }
-
-    public void ActivateSecondSpawn()
-    {
         data.secondSpawn = true;
     }
 }
